@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const Report = () => {
   const [mode, setMode] = useState<"submit" | "track">("submit");
   const [issueCategory, setIssueCategory] = useState("");
-  const [location, setLocation] = useState("");
+  // const [location, setLocation] = useState("");
   const [description, setDescription] = useState("");
   const [photos, setPhotos] = useState<FileList | null>(null);
 
@@ -86,8 +86,8 @@ const Report = () => {
               id="location"
               className="form-control"
               required
-              value={location}
-              onChange={(e) => setLocation(e.target.value)}
+              // value={location}
+              // onChange={(e) => setLocation(e.target.value)}
             />
           </div>
 
