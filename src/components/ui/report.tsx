@@ -10,9 +10,9 @@ const Report = () => {
   const [description, setDescription] = useState("");
   const [photos, setPhotos] = useState<FileList | null>(null);
 
-  const handleModeToggle = () => {
-    setMode(mode === "submit" ? "track" : "submit");
-  };
+  // const handleModeToggle = () => {
+  //   setMode(mode === "submit" ? "track" : "submit");
+  // };
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPhotos(event.target.files);
