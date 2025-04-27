@@ -40,11 +40,10 @@ heatmap_fig.update_layout(map_style="open-street-map")
 
 app.layout = html.Div([
 
-    html.H1("Web Application Dashboards with Dash", style={'text-align': 'center'}),
+    # html.H1("Web Application Dashboards with Dash", style={'text-align': 'center'}),
 
     dcc.Graph(id='my_bee_map', figure=heatmap_fig)
 ])
-
 
 
 # -------------------------------------------------------------------------------
