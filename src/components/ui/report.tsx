@@ -1,6 +1,7 @@
 'use client'; // Ensure this directive is present
 
 import React, { useState } from "react";
+import Link from 'next/link';
 
 const Report = () => {
   const [mode, setMode] = useState<"submit" | "track">("submit");
@@ -116,7 +117,8 @@ const Report = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary w-100 mt-3">Submit Report</button>
+          {/* <button type="submit" className="btn btn-primary w-100 mt-3">Submit Report</button> */}
+          <Link href="/map" className="btn btn-primary w-100 mt-3">Submit Report</Link>
         </form>
       ) : (
         <form className="p-4 rounded shadow-sm" style={{ backgroundColor: "#edebdd" }}>

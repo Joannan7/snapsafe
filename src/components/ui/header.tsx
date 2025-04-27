@@ -34,7 +34,7 @@ const Header = () => {
         </nav>
 
         {/* Submit Button */}
-        <Link href="/submit-report">
+        <Link href="/">
           <button className="btn btn-success rounded-pill px-4 py-2">
             Submit Report
           </button>
