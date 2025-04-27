@@ -69,16 +69,15 @@ const Report = () => {
               onChange={(e) => setIssueCategory(e.target.value)}
             >
               <option value="">Select an issue</option>
-              <option value="trash">Trash Pickup</option>
-              <option value="streetlight">Streetlight Issues</option>
-              <option value="potholes">Potholes</option>
-              <option value="public-safety">Public Safety</option>
-              <option value="animal-control">Animal Control</option>
+              <option value="LOOSE LIVESTOCK">Loose Cattle</option>
+              <option value="TRFC HAZD/ DEBRIS">Trafic Hazzard</option>
+              <option value="COLLISION">Collision</option>
+              <option value="Crash Urgent">Crash</option>
               {/* Add more options here */}
             </select>
           </div>
 
-          {/* Location */}
+          {/* Location
           <div className="mb-3">
             <label htmlFor="location" className="form-label">Location (required)</label>
             <input
@@ -89,7 +88,7 @@ const Report = () => {
               // value={location}
               // onChange={(e) => setLocation(e.target.value)}
             />
-          </div>
+          </div> */}
 
           {/* Description */}
           <div className="mb-3">
